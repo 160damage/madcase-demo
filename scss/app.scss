@@ -1,5 +1,6 @@
 @charset 'utf-8';
 
+@import 'fonts';
 @import 'settings';
 @import 'foundation';
 @import 'motion-ui';
@@ -49,3 +50,14 @@
 
 @include motion-ui-transitions;
 @include motion-ui-animations;
+
+//FontAwesome
+
+@import 'fontawesome/font-awesome';
+
+//blocks
+
+@import 'blocks/page';
+@import 'blocks/header';
+@import 'blocks/sign-in';
+@import 'blocks/sidebar';
